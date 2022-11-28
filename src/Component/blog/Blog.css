@@ -1,0 +1,14 @@
+.post {
+    background-color: floralwhite;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 7px 0px black;
+}   
+.singleBlog{
+    margin: 20px;
+}
+.postHeading{
+    text-transform: capitalize;
+}

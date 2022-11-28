@@ -7,7 +7,7 @@ const Todo = ({ todo, index, markTodo, removeTodo }) => {
   return (
     <div className="todo">
       <span style={{ textDecoration: todo.isDone ? "line-through" : "" }}>{todo.text}</span>
-      <span>
+      <span >
         <Button variant="outline-success" onClick={() => markTodo(index)}>✓</Button>{' '}
         <Button variant="outline-danger" onClick={() => removeTodo(index)}>✕</Button>
       </span>
