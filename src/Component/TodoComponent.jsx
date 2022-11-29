@@ -76,6 +76,7 @@ const TodoComponent = () => {
 
   return (
     <div className="box mt-2">
+      <Row><Link to="/blog">Blog</Link></Row>
       <h3 className="text-center mb-4">Todo List</h3>
       <Row >
         <Col > <FormTodo addTodo={addTodo} /></Col>

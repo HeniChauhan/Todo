@@ -15,7 +15,7 @@ function App() {
        {/* <PDFComponent /> */}
        <BrowserRouter>
           <Routes>
-            <Route path="/todo" element={<TodoComponent />} />
+            <Route path="/" element={<TodoComponent />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:id" element={<SingleBlog />} />
           </Routes>
